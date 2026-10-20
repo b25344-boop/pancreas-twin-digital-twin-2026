@@ -1,0 +1,39 @@
+{
+  "dynamic_cols": [
+    "glucose",
+    "glucose_velocity",
+    "glucose_accel",
+    "hr",
+    "mets",
+    "carbs",
+    "sin_time",
+    "cos_time"
+  ],
+  "static_cols": [
+    "static_age",
+    "static_bmi",
+    "static_hba1c",
+    "static_insulin_user",
+    "static_metformin_user"
+  ],
+  "means": {
+    "glucose": 135.0747342530988,
+    "glucose_velocity": -9.963917963876426e-05,
+    "glucose_accel": -5.025053991125622e-06,
+    "hr": 76.67149713873197,
+    "mets": 3.73457804974561,
+    "carbs": 0.06909522958047526,
+    "sin_time": -0.0013395645022614778,
+    "cos_time": 0.0008711217378464951
+  },
+  "stds": {
+    "glucose": 47.69749484920959,
+    "glucose_velocity": 0.7446766833199623,
+    "glucose_accel": 0.04912295697867183,
+    "hr": 14.390319743010009,
+    "mets": 7.640468298948023,
+    "carbs": 1.5145794204884961,
+    "sin_time": 0.7070770820445118,
+    "cos_time": 0.7071364297174895
+  }
+}

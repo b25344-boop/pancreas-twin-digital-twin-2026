@@ -1,0 +1,105 @@
+{
+  "settings": {
+    "window_hours": 24,
+    "shrink_k": 100,
+    "preregistered": true
+  },
+  "horizons": {
+    "60": {
+      "population": {
+        "rmse": 25.767801991912062,
+        "fold_rmse_mean": 25.846514343711938,
+        "fold_rmse_std": 1.0278094176902832,
+        "macro_rmse": 24.50454384826926,
+        "clarke_AB": 0.97224853387399,
+        "clarke_E": 0.00011696898945673637
+      },
+      "personalised": {
+        "rmse": 25.375355154334766,
+        "fold_rmse_mean": 25.46641350382773,
+        "fold_rmse_std": 1.117935400030663,
+        "macro_rmse": 24.102100448920726,
+        "clarke_AB": 0.9755626552419309,
+        "clarke_E": 0.00011696898945673637
+      },
+      "by_cohort": {
+        "big_ideas": {
+          "population": 18.53928937554139,
+          "personalised": 18.39069052932485
+        },
+        "cgmacros": {
+          "population": 24.56092377866232,
+          "personalised": 24.147142420126308
+        },
+        "hupa_ucm": {
+          "population": 29.18373071682086,
+          "personalised": 28.82805682432474
+        },
+        "shanghai_t2dm": {
+          "population": 23.71617521317548,
+          "personalised": 23.206894239833087
+        }
+      },
+      "sensitivity_rmse": {
+        "W6h_K100": 25.75285416865632,
+        "W24h_K30": 25.38434102102586,
+        "W24h_K300": 25.482263205273636,
+        "W72h_K100": 25.235867387835505
+      },
+      "per_patient": {
+        "n": 184,
+        "improved": 127,
+        "mean_gain_mgdl": 0.4024433993485341,
+        "wilcoxon_p": 8.217786977976337e-13
+      }
+    },
+    "120": {
+      "population": {
+        "rmse": 35.82603238600388,
+        "fold_rmse_mean": 35.62436899934299,
+        "fold_rmse_std": 2.140250503550013,
+        "macro_rmse": 33.930330846089745,
+        "clarke_AB": 0.956680901580468,
+        "clarke_E": 0.0005981897254563218
+      },
+      "personalised": {
+        "rmse": 34.659245645054646,
+        "fold_rmse_mean": 34.54285715628852,
+        "fold_rmse_std": 2.296549199345498,
+        "macro_rmse": 32.78916887847564,
+        "clarke_AB": 0.9594709138907045,
+        "clarke_E": 0.0005635455328623262
+      },
+      "by_cohort": {
+        "big_ideas": {
+          "population": 21.167289967409097,
+          "personalised": 20.72859370818511
+        },
+        "cgmacros": {
+          "population": 30.3589803374052,
+          "personalised": 29.430496578004526
+        },
+        "hupa_ucm": {
+          "population": 42.364169716093556,
+          "personalised": 41.18993690627622
+        },
+        "shanghai_t2dm": {
+          "population": 34.88531260626713,
+          "personalised": 33.275851244760254
+        }
+      },
+      "sensitivity_rmse": {
+        "W6h_K100": 35.63352987060317,
+        "W24h_K30": 34.608820070486956,
+        "W24h_K300": 35.031012716428464,
+        "W72h_K100": 34.30983634544513
+      },
+      "per_patient": {
+        "n": 184,
+        "improved": 128,
+        "mean_gain_mgdl": 1.1411619676140956,
+        "wilcoxon_p": 4.0825976540724796e-14
+      }
+    }
+  }
+}

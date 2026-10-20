@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/raw/
+video/_build/
+*.mp4
+.venv/

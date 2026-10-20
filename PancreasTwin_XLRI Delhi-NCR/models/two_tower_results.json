@@ -1,0 +1,36 @@
+{
+  "model": "Two-Tower Digital Twin (Static EHR + 2-Layer GRU, 48-step / 4-hr lookback)",
+  "lookback_steps": 48,
+  "lookback_hours": 4.0,
+  "test_subjects": 17,
+  "test_records": 49286,
+  "horizon_60m": {
+    "rmse": 29.71,
+    "mae": 20.09,
+    "clarke_zone_a_plus_b": 97.62,
+    "clarke_zone_e": 0.04,
+    "empirical_90pct_cone_coverage": 91.8
+  },
+  "horizon_120m": {
+    "rmse": 39.93,
+    "mae": 28.06,
+    "clarke_zone_a_plus_b": 95.5,
+    "clarke_zone_e": 0.09
+  },
+  "event_warning": {
+    "roc_auc": 0.898,
+    "f1": 0.592,
+    "raw_alerts": {
+      "true_positive_events": 82,
+      "false_alarms": 7285,
+      "median_lead_time_mins": 50.0,
+      "false_alarm_rate_per_100_patient_hours": 177.37
+    },
+    "debounced_cds_alerts": {
+      "true_positive_events": 78,
+      "false_alarms": 1406,
+      "median_lead_time_mins": 40.0,
+      "false_alarm_rate_per_100_patient_hours": 34.23
+    }
+  }
+}

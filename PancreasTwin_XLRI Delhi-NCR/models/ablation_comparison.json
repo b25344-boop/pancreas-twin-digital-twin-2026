@@ -1,0 +1,65 @@
+{
+  "lookback_steps": 48,
+  "lookback_duration_hours": 4.0,
+  "dynamic_only": {
+    "rmse_60m": 28.7,
+    "mae_60m": 19.63,
+    "clarke_zone_a_plus_b_60m": 97.68,
+    "clarke_zone_e_60m": 0.04,
+    "empirical_90pct_cone_coverage": 91.1,
+    "rmse_120m": 39.8,
+    "mae_120m": 27.69,
+    "clarke_zone_a_plus_b_120m": 95.39,
+    "clarke_zone_e_120m": 0.06,
+    "spike_roc_auc": 0.907,
+    "spike_f1": 0.694,
+    "warning_metrics": {
+      "true_events_total": 327,
+      "raw_alerts": {
+        "true_positive_events": 89,
+        "false_alarms": 7440,
+        "median_lead_time_mins": 55.0,
+        "false_alarm_rate_per_100_patient_hours": 181.15
+      },
+      "debounced_cds_alerts": {
+        "true_positive_events": 86,
+        "false_alarms": 1439,
+        "median_lead_time_mins": 40.0,
+        "false_alarm_rate_per_100_patient_hours": 35.04
+      }
+    }
+  },
+  "two_tower_multimodal": {
+    "rmse_60m": 29.71,
+    "mae_60m": 20.09,
+    "clarke_zone_a_plus_b_60m": 97.62,
+    "clarke_zone_e_60m": 0.04,
+    "empirical_90pct_cone_coverage": 91.8,
+    "rmse_120m": 39.93,
+    "mae_120m": 28.06,
+    "clarke_zone_a_plus_b_120m": 95.5,
+    "clarke_zone_e_120m": 0.09,
+    "spike_roc_auc": 0.898,
+    "spike_f1": 0.592,
+    "warning_metrics": {
+      "true_events_total": 327,
+      "raw_alerts": {
+        "true_positive_events": 82,
+        "false_alarms": 7285,
+        "median_lead_time_mins": 50.0,
+        "false_alarm_rate_per_100_patient_hours": 177.37
+      },
+      "debounced_cds_alerts": {
+        "true_positive_events": 78,
+        "false_alarms": 1406,
+        "median_lead_time_mins": 40.0,
+        "false_alarm_rate_per_100_patient_hours": 34.23
+      }
+    }
+  },
+  "delta_ehr_fusion": {
+    "rmse_60m_improvement": -1.01,
+    "rmse_120m_improvement": -0.13,
+    "spike_auc_improvement": -0.009
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "gates": {
+    "G7_unit_plausibility": {
+      "status": "PASS",
+      "median_glucose_mgdl": 129.5,
+      "range_mgdl": "39.6 - 444.0"
+    },
+    "G1_patient_disjoint": {
+      "status": "PASS",
+      "train_subjects": 74,
+      "val_subjects": 15,
+      "test_subjects": 17,
+      "total_subjects": 106
+    },
+    "G2_no_future_leakage": {
+      "status": "PASS",
+      "note": "Targets strictly shifted negative into future"
+    }
+  },
+  "checks": {
+    "beating_persistence_60m": {
+      "persistence_rmse": 32.66,
+      "ridge_rmse": 29.28,
+      "lightgbm_rmse": 27.93,
+      "improvement_mgdl": 4.73
+    },
+    "beating_persistence_120m": {
+      "persistence_rmse": 48.07,
+      "lightgbm_rmse": 39.54,
+      "improvement_mgdl": 8.53
+    },
+    "clinical_safety_60m": {
+      "zone_a_plus_b_pct": 97.13,
+      "zone_e_pct": 0.02
+    },
+    "fusion_ablation": {
+      "status": "PASS",
+      "file": "fusion_ablation_results.json",
+      "horizons": [
+        "60m",
+        "120m"
+      ]
+    },
+    "fresh_benchmark": {
+      "status": "PASS",
+      "file": "fresh\\results.json",
+      "n_patients": 184,
+      "rmse_60m_cv": 25.85,
+      "rmse_120m_cv": 35.65
+    },
+    "closed_loop_personalisation": {
+      "status": "PASS",
+      "file": "fresh\\personalize_results.json",
+      "rmse_60m_cv": 25.47,
+      "rmse_120m_cv": 34.54,
+      "patients_improved_60m": 127
+    },
+    "pitch_deck": {
+      "status": "PASS",
+      "path": "Project_Pancreas_Twin_Deck.pptx",
+      "size_kb": 1461.6
+    }
+  }
+}

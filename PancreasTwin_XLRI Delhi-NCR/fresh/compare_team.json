@@ -1,0 +1,36 @@
+{
+  "A_team_test_patients": {
+    "n_test_patients": 17,
+    "missing_in_fresh": [],
+    "60": {
+      "persistence": 32.43,
+      "ridge": 29.21,
+      "lgb_cgm": 27.81,
+      "lgb_cgm_carb": 26.99,
+      "lgb_full": 26.33
+    },
+    "120": {
+      "persistence": 46.64,
+      "ridge": 40.25,
+      "lgb_cgm": 37.17,
+      "lgb_cgm_carb": 36.66,
+      "lgb_full": 36.05
+    }
+  },
+  "B_shanghai_interpolation": {
+    "rows": 50453,
+    "share_interpolated": 0.666,
+    "persistence_rmse_60_real_anchor": 30.22,
+    "persistence_rmse_60_interpolated_anchor": 29.53
+  },
+  "C_patients_across_splits": {
+    "2001": [
+      "test",
+      "train"
+    ],
+    "2014": [
+      "test",
+      "train"
+    ]
+  }
+}

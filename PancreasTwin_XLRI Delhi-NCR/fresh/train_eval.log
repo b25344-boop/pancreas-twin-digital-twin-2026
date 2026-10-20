@@ -1,0 +1,5 @@
+features (442353, 34) 5s
+30 {'persistence': 19.49, 'trend': 19.57, 'ridge': 17.46, 'lgb_cgm': 16.23, 'lgb_cgm_carb': 15.87, 'lgb_full': 15.76, 'ensemble': 16.19} 74s
+60 {'persistence': 30.74, 'trend': 34.16, 'ridge': 27.99, 'lgb_cgm': 26.35, 'lgb_cgm_carb': 25.93, 'lgb_full': 25.77, 'ensemble': 26.25} 141s
+120 {'persistence': 43.87, 'trend': 55.16, 'ridge': 38.38, 'lgb_cgm': 36.37, 'lgb_cgm_carb': 35.81, 'lgb_full': 35.86, 'ensemble': 36.15} 205s
+done 214s
