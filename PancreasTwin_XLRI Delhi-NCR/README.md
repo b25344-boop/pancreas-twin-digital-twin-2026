@@ -236,7 +236,7 @@ python video/build_video.py                # narrated walkthrough video from the
 
 **Video file (MP4, 21 min 19 s, public in this repo):** [`video/Pancreas_Twin_Walkthrough.mp4`](video/Pancreas_Twin_Walkthrough.mp4)
 
-**Watch online (plays in the browser, no sign-in needed):** [https://raw.githubusercontent.com/b25344-boop/pancreas-twin-digital-twin-2026/main/PancreasTwin_XLRI%20Delhi-NCR/video/Pancreas_Twin_Walkthrough.mp4](https://raw.githubusercontent.com/b25344-boop/pancreas-twin-digital-twin-2026/main/PancreasTwin_XLRI%20Delhi-NCR/video/Pancreas_Twin_Walkthrough.mp4)
+**Watch online (plays in the browser, no sign-in needed):** [https://b25344-boop.github.io/pancreas-twin-digital-twin-2026/](https://b25344-boop.github.io/pancreas-twin-digital-twin-2026/)
 
 <!-- YOUTUBE_LINK -->
 
