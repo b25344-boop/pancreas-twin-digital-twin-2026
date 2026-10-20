@@ -36,7 +36,7 @@
     },
     "fusion_ablation": {
       "status": "PASS",
-      "file": "fusion_ablation_results.json",
+      "file": "casework\\digital_twin\\fusion_ablation_results.json",
       "horizons": [
         "60m",
         "120m"
@@ -44,21 +44,21 @@
     },
     "fresh_benchmark": {
       "status": "PASS",
-      "file": "fresh\\results.json",
+      "file": "casework\\digital_twin\\fresh\\results.json",
       "n_patients": 184,
       "rmse_60m_cv": 25.85,
       "rmse_120m_cv": 35.65
     },
     "closed_loop_personalisation": {
       "status": "PASS",
-      "file": "fresh\\personalize_results.json",
+      "file": "casework\\digital_twin\\fresh\\personalize_results.json",
       "rmse_60m_cv": 25.47,
       "rmse_120m_cv": 34.54,
       "patients_improved_60m": 127
     },
     "pitch_deck": {
       "status": "PASS",
-      "path": "Project_Pancreas_Twin_Deck.pptx",
+      "path": "casework\\digital_twin\\Project_Pancreas_Twin_Deck.pptx",
       "size_kb": 1461.6
     }
   }

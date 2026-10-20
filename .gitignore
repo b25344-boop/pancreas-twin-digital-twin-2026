@@ -2,5 +2,6 @@ __pycache__/
 *.pyc
 data/raw/
 video/_build/
-*.mp4
+video/demo_raw.webm
+*_long_34min.mp4
 .venv/
