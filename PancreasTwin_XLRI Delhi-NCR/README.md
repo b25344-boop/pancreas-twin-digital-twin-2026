@@ -236,7 +236,9 @@ python video/build_video.py                # narrated walkthrough video from the
 
 **Video file (MP4, 21 min 19 s, public in this repo):** [`video/Pancreas_Twin_Walkthrough.mp4`](video/Pancreas_Twin_Walkthrough.mp4)
 
-**Unlisted YouTube link:** VIDEO_LINK_PLACEHOLDER
+**Watch online (plays in the browser, no sign-in needed):** [https://raw.githubusercontent.com/b25344-boop/pancreas-twin-digital-twin-2026/main/PancreasTwin_XLRI%20Delhi-NCR/video/Pancreas_Twin_Walkthrough.mp4](https://raw.githubusercontent.com/b25344-boop/pancreas-twin-digital-twin-2026/main/PancreasTwin_XLRI%20Delhi-NCR/video/Pancreas_Twin_Walkthrough.mp4)
+
+<!-- YOUTUBE_LINK -->
 
 A narrated walkthrough of the 15-slide deck plus a screen-recorded demo of the dashboard, 21 minutes 19 seconds (the brief asks for at least 20 minutes). The narration is in [`VIDEO_SCRIPT_20MIN.md`](VIDEO_SCRIPT_20MIN.md); the video is rebuilt with `python video/build_video.py`.
 

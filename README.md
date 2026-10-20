@@ -14,5 +14,7 @@ presentation), is in the folder:
 | Presentation (PDF) | [`Project_Pancreas_Twin_Deck.pdf`](PancreasTwin_XLRI%20Delhi-NCR/Project_Pancreas_Twin_Deck.pdf) |
 | Architecture diagram (PDF) | [`architecture_diagram.pdf`](PancreasTwin_XLRI%20Delhi-NCR/figures/architecture_diagram.pdf) |
 | Demo video (21:19, MP4 in this repo) | [`Pancreas_Twin_Walkthrough.mp4`](PancreasTwin_XLRI%20Delhi-NCR/video/Pancreas_Twin_Walkthrough.mp4) |
-| Demo video (unlisted YouTube) | VIDEO_LINK_PLACEHOLDER |
+| Demo video (watch online, no sign-in) | [Pancreas_Twin_Walkthrough.mp4](https://raw.githubusercontent.com/b25344-boop/pancreas-twin-digital-twin-2026/main/PancreasTwin_XLRI%20Delhi-NCR/video/Pancreas_Twin_Walkthrough.mp4) |
 | Licence | [MIT](PancreasTwin_XLRI%20Delhi-NCR/LICENSE) (code); data licences in [`DATA_SOURCES.md`](PancreasTwin_XLRI%20Delhi-NCR/DATA_SOURCES.md) |
+
+<!-- YOUTUBE_ROW -->
